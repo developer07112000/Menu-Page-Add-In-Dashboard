@@ -1,7 +1,7 @@
 # Add Menu-Page-Add-In-Dashboard
 
 =============================In function.php file ==================================================
- add_action( 'admin_menu', 'wpse_91693_register' );
+``` add_action( 'admin_menu', 'wpse_91693_register' );
 function wpse_91693_register()
 {
     add_menu_page(
@@ -79,3 +79,4 @@ function wpse_91693_render()
 	echo '</div>';
 	print '</div>';
 }
+```
